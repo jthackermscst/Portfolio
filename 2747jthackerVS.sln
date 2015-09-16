@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jthacker2747ex1c1", "jthack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jthacker2747ex1c2", "jthacker2747ex1c2\jthacker2747ex1c2.csproj", "{D0A38F70-55EC-454D-82FA-9430E6A83A0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jthacker2747ex1d1", "jthacker2747ex1d1\jthacker2747ex1d1.csproj", "{753400A1-378A-4AFB-8A62-125F4C0C03D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D0A38F70-55EC-454D-82FA-9430E6A83A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A38F70-55EC-454D-82FA-9430E6A83A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A38F70-55EC-454D-82FA-9430E6A83A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753400A1-378A-4AFB-8A62-125F4C0C03D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753400A1-378A-4AFB-8A62-125F4C0C03D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753400A1-378A-4AFB-8A62-125F4C0C03D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753400A1-378A-4AFB-8A62-125F4C0C03D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
