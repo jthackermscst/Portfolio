@@ -1,0 +1,12 @@
+﻿UPDATE [Purchasing].[PurchaseOrderHeader] 
+SET [RevisionNumber] = @RevisionNumber, [Status] = @Status, [EmployeeID] = @EmployeeID,
+[VendorID] = @VendorID, [ShipMethodID] = @ShipMethodID, [OrderDate] = @OrderDate, [ShipDate] = @ShipDate, [SubTotal] = @SubTotal,
+ [TaxAmt] = @TaxAmt, [Freight] = @Freight, [ModifiedDate] = @ModifiedDate 
+WHERE (([PurchaseOrderID] = @Original_PurchaseOrderID) AND ([RevisionNumber] = @Original_RevisionNumber) AND ([Status] = @Original_Status) 
+AND ([EmployeeID] = @Original_EmployeeID) AND ([VendorID] = @Original_VendorID) 
+AND ([ShipMethodID] = @Original_ShipMethodID) AND ([OrderDate] = @Original_OrderDate) AND ((@IsNull_ShipDate = 1 
+AND [ShipDate] IS NULL) 
+OR ([ShipDate] = @Original_ShipDate)) AND ([SubTotal] = @Original_SubTotal) AND ([TaxAmt] = @Original_TaxAmt) 
+AND ([Freight] = @Original_Freight) AND ([TotalDue] = @Original_TotalDue) AND ([ModifiedDate] = @Original_ModifiedDate));
+SELECT PurchaseOrderID, RevisionNumber, Status, EmployeeID, VendorID, ShipMethodID, OrderDate, ShipDate, SubTotal,
+ TaxAmt, Freight, TotalDue, ModifiedDate FROM Purchasing.PurchaseOrderHeader WHERE (PurchaseOrderID = @PurchaseOrderID)
