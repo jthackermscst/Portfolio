@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="jthacker2747ex2c1.Vendor">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAEAAACABAQAAAAAACAQIAggFAAIAAAAAAAhJAAA=</HashCode>
+      <FileName>Vendor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jthacker2747ex2c1.VendorDB">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VendorDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jthacker2747ex2c1.PurchaseOrderHeader">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEYAAAREAAAECBAAAAgwIAAAIgAAAiYIAAAEKAgAAAA=</HashCode>
+      <FileName>PurchaseOrderHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="jthacker2747ex2c1.PurchaseOrderHeaderDB">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PurchaseOrderHeaderDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
